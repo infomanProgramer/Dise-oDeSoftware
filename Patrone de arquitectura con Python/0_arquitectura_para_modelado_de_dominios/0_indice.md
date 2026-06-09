@@ -8,4 +8,3 @@
 - Patrón repositorio
 - Un breve interludio sobre el acoplamiento y las abstracciones
 - Nuestro primer uso: Flask API y capa de servicio
-- asfasdf
