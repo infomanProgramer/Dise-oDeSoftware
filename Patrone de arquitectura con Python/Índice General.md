@@ -1,2 +1,2 @@
-- [[Indice|Parte I: Creación de una arquitectura para admitir el modelado de dominios]]
+- [Parte I: Creación de una arquitectura para admitir el modelado de dominios](indice)
 - 

@@ -1,4 +1,4 @@
-- [[Breve descripción de lo que aprendera|Breve descripción de lo que aprenderá]]
+- [Breve descripción de lo que aprenderá](breve_descripción_de_lo_que_aprendera)
 - [[Introducción|Introducción]]
 - Modelado de dominio
 - Patrón repositorio
