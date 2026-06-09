@@ -1,7 +1,7 @@
 # Parte I: Creación de una arquitectura para admitir el modelado de dominios
 
 - [Breve descripción de lo que aprenderá](breve_descripción_de_lo_que_aprendera.md)
-- [[Introducción|Introducción]]
+- [Introducción](Introducción.md)
 - Modelado de dominio
 - Patrón repositorio
 - Un breve interludio sobre el acoplamiento y las abstracciones

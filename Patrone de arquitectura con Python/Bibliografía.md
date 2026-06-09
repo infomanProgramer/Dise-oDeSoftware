@@ -1,0 +1,3 @@
+# Bibliografía
+
+- [Architecture patterns with python](https://es.scribd.com/document/854704052/1-Architecture-patterns-with-python-Spanish)

@@ -1,3 +1,5 @@
+# Un breve descripción de lo que se aprendera
+
 - **Parte I: Creación de una arquitectura para admitir el modelo de dominios**
 	- **Modelado de dominio:** Problemas comerciales complejos deben reflejarse en código, en forma de un modelo de dominio. Pero por que siempre parece ser tan difícil hacerlo sin enredarse con problemas de infraestructura. En esta capitulo mostramos como comenzar con un modelo de dominio que no tiene dependencias externas y PU. Mas adelante volvemos a los patrones DDD para discutir como elegir el agregado correcto y como esta elección se relaciona con cuestiones de integridad de datos
 	- **Patrones repositorio:** Mantener el modelo libre de dependencias. Creamos una capa de abstracción en torno al almacenamiento persistente y creamos una capa de servicio para definir los puntos de entrada a nuestro sistema ya sea una API Flask o una CLI.

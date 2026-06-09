@@ -1,11 +1,29 @@
-**¿Por qué nuestros diseños salen mal?**
+# Introducción
 
-Los sistemas de software tienden al caos.
-Los sistemas de software caóticos se caracterizan por una similitud de funciones: Controladores de API que tienen conocimiento del dominio y envían correos y realizan registros.
-Clases de negocios que no realizan cálculos pero realizan operaciones de E/S y todo acoplado a todo lo demás.
+### Descripción general
+
+Los desarrolladores a menudos dependen de los modelos de datos y carecen de comprensión de los modelos de dominio, lo que lleva a una lógica de negocio dispersa y a centrarse en el esquema de la base de datos en lugar de la funcionalidad del sistema.
+
+### Objetivos
+
+Esta sección hace hincapié en la creación de un modelo de objetos sólido mediante el Desarrollo Dirigido por Pruebas (TDD) y en el mantenimiento de su independencia de los detalles técnicos, promoviendo un código que no dependa de la persistencia y API estables para la refactorización.
+
+### Patrones de diseño clave Presentados
+
+- **Patrón Repositorio:** Abstracción del almacenamiento persistente.
+- **Patrón Capa de Servicio:** Definición de los límites de los casos de uso.
+- **Patrón Unidad de Trabajo:** Facilita las operaciones atómicas.
+- **Patrón Agregado:** Garantiza la integridad de los datos.
+
+### ¿Por qué nuestros diseños salen mal?
+
+- Los sistemas de software tienden al caos.
+- Los sistemas de software caóticos se caracterizan por una similitud de funciones: Controladores de API que tienen conocimiento del dominio y envían correos y realizan registros.
+- Clases de negocios que no realizan cálculos pero realizan operaciones de E/S y todo acoplado a todo lo demás.
 
 Una gran bola de barro es el estado natural del software de la misma manera que la naturaleza salvaje es el estado natural de su jardín, Se necesita energía y dirección para evitar el colapso.
-## Encapsulamiento y abstracciones
+
+### Encapsulamiento y abstracciones
 
 El termino Encapsulamiento cubre dos ideas estrechamente relacionadas:
 
@@ -17,7 +35,8 @@ El termino Encapsulamiento cubre dos ideas estrechamente relacionadas:
 En la literatura del mundo orientado a objetos OO, una de las caracterizaciones clásicas de este enfoque se denomina **Diseño impulsado por la responsabilidad**, utiliza las palabras funciones y responsabilidades en lugar de tareas.  El punto principal es pensar en el código en términos de comportamiento, más que en términos de datos o algoritmos.
 
 *En un leguaje OO tradicional como Java o C#, puedes usar una clase abstracta (ABC), o una interfaz para definir una abstracción. En Python puedes usar ABC, pero también puedes confiar felizmente en la* ***Tipificación Pato***
-## Capas
+
+### Capas
 
 Debemos prestar atención a la interacción de nuestros objetos y funciones. Cuando una función u objeto utiliza otro, decimos que uno depende del otro. Estas dependencias forman una especie de red o grafico de nodos. Cambiar un nodo del gráfico se vuelve difícil por que tiene el potencial de afectar muchas otras partes del sistema. ***Las arquitecturas en capas son una forma de abordar este problema*** 
 
@@ -37,7 +56,7 @@ Finalmente tenemos la capa de base de datos que es responsable de almacenar y re
 
 Durante este libro daremos vuelta sistemáticamente a este modelo obedeciendo un principio simple.
 
-## El principio de inversión de dependencia
+### El principio de inversión de dependencia
 
 El principio de inversión de dependencia (DIP) es la *D* de *SOLID*, que indica que:
 
@@ -49,7 +68,8 @@ Los **módulos de alto nivel** son funciones, clases y paquetes que se ocupan de
 Los **módulos de bajo nivel** son código que no le importa a su organización. Para nuestros interesados no técnicos, estos conceptos de bajo nivel no son interesantes ni relevantes
 
 Las **interfaces** encapsulan el comportamiento
-## Un lugar para toda nuestra lógica empresarial: el modelo de dominio
+
+### Un lugar para toda nuestra lógica empresarial: el modelo de dominio
 
 Una de las razones mas comunes por las que nuestros diseños fallan es que la lógica empresarial se extiende por las capas de nuestra aplicación
 
