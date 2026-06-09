@@ -1,7 +1,9 @@
 # Parte I: Creación de una arquitectura para admitir el modelado de dominios
 
-- [Breve descripción de lo que aprenderá](breve_descripción_de_lo_que_aprendera.md)
 - [Introducción](Introducción.md)
+- [Encapsulamiento y Abstracción](encapsulamiento_abstracciones.md)
+- [Arquitectura de Capas](capas.md)
+- [El principio de inversión de Dependencia](inversion_dependencia.md)
 - Modelado de dominio
 - Patrón repositorio
 - Un breve interludio sobre el acoplamiento y las abstracciones
