@@ -1,3 +1,5 @@
+# Realizar distinción de sentido
+
 Los programadores se crean un problema al crear código únicamente dirigido a un compilador o interprete. 
 
 Los nombres tienen que ser distintos no basta con añadir series numéricas a los nombre como:

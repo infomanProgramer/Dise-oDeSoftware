@@ -1,3 +1,5 @@
+# Nombres de clases
+
 Las clases y objetos deben tener nombres o frases como:
 - Customer
 - WikiPage

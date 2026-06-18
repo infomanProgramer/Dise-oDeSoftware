@@ -1,3 +1,5 @@
+# Usar nombres que revelen intenciones
+
 Elegir nombres correctos lleva tiempo, pero también ahorra trabajo. Por ello, preste atención a los nombres y cámbielos cuando encuentre otros mejores.
 
 El nombre de una variable, función o clase debe responder a una serie de cuestiones básicas. Debe indicar por qué existe, que hace y como se usa. Si un nombre requiere un comentario, significa que no revela su cometido.

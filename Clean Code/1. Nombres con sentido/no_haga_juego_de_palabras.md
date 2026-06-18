@@ -1,3 +1,5 @@
+# No haga juego de palabras
+
 Evite usar la misma palabra con dos fines distintos. Si aplica la regla de una palabra por conceptos, acabará con muchas clases que por ejemplo tengan un método add. Mientras las listas de parámetros y los valores devueltos de los distintos métodos add sean semánticamente equivalentes, no hay problema.
 
 Por ejemplo imaginemos que tenemos el siguiente método:

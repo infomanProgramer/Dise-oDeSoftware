@@ -1,3 +1,4 @@
+# Usar nombres que se puedan buscar
 
 Los nombre de una letra y las constantes numéricas tienen un problema: no son fáciles de encontrar en el texto. Se puede detectar  MAX_CLASSES_PER_STUDENT, pero el número 7 resulta mas complicado. Las búsquedas pueden devolver el digito como parte de nombres de archivo, otras definiciones de constantes o expresiones en las que se use con otra intención.
 

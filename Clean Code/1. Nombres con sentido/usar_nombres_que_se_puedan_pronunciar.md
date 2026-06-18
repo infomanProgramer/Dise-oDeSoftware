@@ -1,3 +1,5 @@
+# Usar nombres que se puedan pronunciar
+
 Crear nombre pronunciables, sino lo puede pronunciar, no podrá explicarlo sin parecer tonto. Es un facto importante ya que la programación es un actividad social.
 
 Por ejemplo compare:

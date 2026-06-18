@@ -1,3 +1,6 @@
+
+# Nombres de métodos
+
 Los métodos deben tener nombres de verbo como:
 
 - postPayment, 

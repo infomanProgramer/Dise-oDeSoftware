@@ -1,3 +1,5 @@
+# Evitar la desinformación
+
 ### Evitar pistas falsas
 
 Los programadores deben evitar dejar pistas falsas que dificulten el significado del código. Debemos evitar palabras cuyo significado se aleje de lo que pretendemos. Por ejemplo: 
