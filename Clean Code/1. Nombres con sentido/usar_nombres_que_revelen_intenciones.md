@@ -1,25 +1,29 @@
 # Usar nombres que revelen intenciones
 
-Elegir nombres correctos lleva tiempo, pero también ahorra trabajo. Por ello, preste atención a los nombres y cámbielos cuando encuentre otros mejores.
+El nombre de una variable debe corresponder a una serie de cuestiones basicas como:
 
-El nombre de una variable, función o clase debe responder a una serie de cuestiones básicas. Debe indicar por qué existe, que hace y como se usa. Si un nombre requiere un comentario, significa que no revela su cometido.
+- ¿Por qué existe?
+- ¿Qué hace?
+- ¿Cómo se usa?
+
+Si un nombre requiere un comentario, significa que no revela su intención.
 
 ~~~c#
 int d; //tiempo transcurrido en días
 ~~~
 
-El nombre d no revela nada. No evoca una sensación de tiempo transcurrido, ni de días. Debe elegir un nombre que especifique lo que se mide y la unidad de dicha medida
+El nombre d no revela nada. Debe elegir un nombre que especifique lo que se mide y la unidad de dicha medida
 
-~~~c#
+~~~java
 int elapsedTimeInDays;
 int daysSinceCreation;
 int daysSinceModification;
 int fileAgeInDays;
 ~~~
 
-La elección de nombres que revelen intenciones facilita considerablemente la comprensión y la modificación del código
+La elección de nombres que revelen intenciones facilita considerablemente la comprensión y la modificación del código.
 
-¿Para que sirve el siguiente código?
+Analicemos el siguiente codigo:
 
 ~~~c#
 public List getThem()
@@ -30,11 +34,11 @@ public List getThem()
 	return list1; 
 ~~~
 
-**¿Por que es complicado saber la función de este código?**
+- ¿Para que sirve este código?
+- ¿Por que es complicado saber la función de este código?
 
-No hay expresiones complejas. Los espacios y el sangrado son razonables. Solo hay tres variables y dos constantes. No tiene clases complejas o métodos polimórficos, solo una lista de matrices
+El problema con este código no es la simplicidad, sino su *carácter implícito*: el grado en el que el contexto no es explicito en propio código, Implícitamente el código requiere que sepamos las respuestas a las siguientes preguntas:
 
-El problema no es la simplicidad del código sino su carácter implícito: el grado en el que el contexto no es explicito en propio código, Implícitamente el código requiere que sepamos las respuestas a las siguientes preguntas:
 - ¿Qué contiene theList?
 - ¿Qué significado tiene el subíndice cero de un elemento de theList?
 - ¿Qué importancia tiene el valor 4?

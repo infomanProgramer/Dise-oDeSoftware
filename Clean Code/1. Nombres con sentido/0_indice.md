@@ -6,7 +6,7 @@ Los nombre son omnipresentes. Aparecen en variables, funciones, argumentos, clas
 
 - [Usar nombres que revelen intenciones](usar_nombres_que_revelen_intenciones.md)
 - [Evitar la desinformación](evitar_la_desinformación.md)
-- [Realizar distinción de sentido](realizar_distincion_de_sentido.md)
+- [Realizar distinción de sentido](realizar_distinción_de_sentido.md)
 - [Usar nombres que se puedan pronunciar](usar_nombres_que_se_puedan_pronunciar.md)
 - [Usa nombres que se puedan buscar](usa_nombres_que_se_puedan_buscar.md)
 - [Evitar codificaciones](evitar_codificaciones.md)

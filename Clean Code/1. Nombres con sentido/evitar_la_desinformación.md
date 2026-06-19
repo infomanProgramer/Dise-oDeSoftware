@@ -1,13 +1,13 @@
 # Evitar la desinformación
 
-### Evitar pistas falsas
+Los programadores deben evitar dejar *pistas falsas que dificulten el significado del código*. Debemos evitar palabras cuyo significado se aleje de lo que pretendemos. Por ejemplo:
 
-Los programadores deben evitar dejar pistas falsas que dificulten el significado del código. Debemos evitar palabras cuyo significado se aleje de lo que pretendemos. Por ejemplo: 
 ~~~c#
 hp //hipotenusa
 aix
 sco
-~~~ 
+~~~
+
 son nombre de variables pobres. Aunque se trate del código de una hipotenusa y hp parezca la abreviatura correcta, puede no serlo
 
 El lector tendría que adivinar mejor seria:
