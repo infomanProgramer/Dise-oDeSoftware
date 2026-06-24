@@ -8,4 +8,10 @@ Cuando la complejidad se descontrola, los desarrolladores ya no pueden comprende
 
 La complejidad mas significativa de muchas aplicaciones no es técnica, sino que reside en el propio dominio: la actividad o el negocio del usuario
 
-(Pagina 139)
+- En la mayoria de los proyectos de software, el enfoque principal debe estar en el dominio y la lógica de dominio
+- Los diseños de dominio complejos deben basarse en un modelo
+
+
+
+
+
