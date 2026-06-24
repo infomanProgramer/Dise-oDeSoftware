@@ -8,7 +8,7 @@ aix
 sco
 ~~~
 
-son nombre de variables pobres. Aunque se trate del código de una hipotenusa y hp parezca la abreviatura correcta, puede no serlo
+son nombre de *variables pobres*. Aunque se trate del código de una hipotenusa y hp parezca la abreviatura correcta, puede no serlo
 
 El lector tendría que adivinar mejor seria:
 
@@ -55,6 +55,7 @@ XYZControllerForEfficientHandlingOfString?
 Visualmente son idénticas
 
 **Problema**
+
 - Son difíciles de distinguir rápidamente
 - Generan errores al importar
 - Confunden en revisiones de código
@@ -64,6 +65,7 @@ Visualmente son idénticas
 El código se lee mucho más de lo que se escribe.
 
 Si un nombre:
+
 - Sugiere una estructura incorrecta
 - Tiene múltiples significados
 - Es ambiguo
@@ -72,6 +74,7 @@ Si un nombre:
 - Entonces estás agregando carga cognitiva innecesaria.
 
 Y eso genera:
+
 - Bugs
 - Malentendidos
 - Código frágil
@@ -80,6 +83,7 @@ Y eso genera:
 **Regla mental práctica**
 
 Antes de nombrar algo pregúntate:
+
 - ¿El nombre describe exactamente lo que es?
 - ¿Podría interpretarse de otra forma?
 - ¿Refleja correctamente el tipo de dato?

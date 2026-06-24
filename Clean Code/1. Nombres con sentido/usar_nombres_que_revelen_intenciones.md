@@ -14,7 +14,7 @@ int d; //tiempo transcurrido en días
 
 El nombre d no revela nada. Debe elegir un nombre que especifique lo que se mide y la unidad de dicha medida
 
-~~~java
+~~~c#
 int elapsedTimeInDays;
 int daysSinceCreation;
 int daysSinceModification;
