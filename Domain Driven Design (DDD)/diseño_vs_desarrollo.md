@@ -19,6 +19,11 @@ Las decisiones de diseño previas pueden hacer que el proceso de refactorizació
 - **Parte I: Poniendo en práctica el modelo de dominio:** Terminos y visión general de las implicaciones del uso del modelo de dominio
 - **Parte II: Componentes básicos del un diseño basado en modelos:** Prácticas del Modelo de Dominio orientado a objetos en un conjunto de bloques de construcción. Esta sección se centra en cerrar la brecha entre *Modelos* y el *Software funcional*. Pero el punto principal de esta sección es enfocarse en las *decisiones* que mantienen al modelo y la implementación alineados entre si.
 - **Parte III: Refactorización para un compresión mas profunda del modelo** Ensamblar los *elementos básicos* en *modelos prácticos* que generen beneficios. Los modelos valiosos no surgen de inmediato, requieren una comprensión del dominio. Esa comprensión se obtiene al sumergirse, implementar un diseño inicial basado en un modelo ingenuo y luego transformarlo una y otra vez.
-- **Parte IV: Diseño estratégico** 
+- **Parte IV: Diseño estratégico** El diseño estratégico aborda situaciones que surgen en sistemas complejos, organizaciones de gran tamaño e interacciones con sistemas externos y sistemas heredados. Esta sección explora una tríada de principios que se aplican al sistema en su conjunto: 
+  - contexto,
+  - síntesis
+  - estructura a gran escala.
+
+Las decisiones de diseño estratégico se toman en equipo, o incluso entre equipos. El diseño estratégico permite alcanzar los objetivos de la Parte I a mayor escala, para un sistema grande o una aplicación que se integra en una extensa red empresarial.
 
 
