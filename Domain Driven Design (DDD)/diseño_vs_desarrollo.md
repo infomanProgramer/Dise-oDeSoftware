@@ -26,4 +26,3 @@ Las decisiones de diseño previas pueden hacer que el proceso de refactorizació
 
 Las decisiones de diseño estratégico se toman en equipo, o incluso entre equipos. El diseño estratégico permite alcanzar los objetivos de la Parte I a mayor escala, para un sistema grande o una aplicación que se integra en una extensa red empresarial.
 
-
